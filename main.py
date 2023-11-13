@@ -4,7 +4,7 @@ import asyncio
 from datetime import datetime
 import json
 
-bot = AsyncTeleBot("6890114190:AAGFmWKdfmPA9-OIoU5dZKuyQFqFMnaM9Tg")
+bot = AsyncTeleBot()
 
 mongo_url = 'mongodb://localhost:27017'
 mongo_db_name = 'DataDB'
